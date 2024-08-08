@@ -1,0 +1,65 @@
+{
+  "player": [
+    {
+      "name": "",
+      "tag": "",
+      "character": "Random",
+      "skin": "Random1"
+    },
+    {
+      "name": "",
+      "tag": "",
+      "character": "Random",
+      "skin": "Random1"
+    },
+    {
+      "name": "",
+      "tag": "",
+      "character": "Random",
+      "skin": "Random1"
+    },
+    {
+      "name": "",
+      "tag": "",
+      "character": "Random",
+      "skin": "Random1"
+    }
+  ],
+  "teamName": [
+    "",
+    ""
+  ],
+  "color": [
+    "Red",
+    "Blue"
+  ],
+  "score": [
+    0,
+    0
+  ],
+  "wl": [
+    "Nada",
+    "Nada"
+  ],
+  "bestOf": "Bo5",
+  "gamemode": 1,
+  "round": "",
+  "tournamentName": "",
+  "caster": [
+    {
+      "name": "",
+      "twitter": "",
+      "twitch": ""
+    },
+    {
+      "name": "",
+      "twitter": "",
+      "twitch": ""
+    }
+  ],
+  "allowIntro": false,
+  "workshop": false,
+  "forceHD": false,
+  "noLoAHD": false,
+  "forceMM": false
+}

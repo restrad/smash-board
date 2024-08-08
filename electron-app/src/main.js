@@ -1,16 +1,25 @@
-const { app, BrowserWindow } = require("electron/main");
+const { app, BrowserWindow, dialog } = require("electron/main");
 const path = require("node:path");
+require("@electron/remote/main").initialize();
 
 function createWindow() {
-  const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+  const mainWindow = new BrowserWindow({
+    width: 1200,
+    height: 330,
+    minWidth: 1000,
+    minHeight: 330,
+    maxWidth: 1000,
+    maxHeight: 492,
     webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
       preload: path.join(__dirname, "preload.js"),
     },
   });
 
-  win.loadFile(path.join(__dirname, "index.html"));
+  require("@electron/remote/main").enable(mainWindow.webContents);
+  mainWindow.loadFile(path.join(__dirname, "index.html"));
+  // mainWindow.webContents.openDevTools();
 }
 
 app.whenReady().then(() => {
@@ -28,3 +37,9 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
+
+exports.verifyNuke = () =>
+  dialog.showMessageBoxSync({
+    buttons: ["Yes", "No", "Cancel"],
+    message: "Clear all settings?",
+  });

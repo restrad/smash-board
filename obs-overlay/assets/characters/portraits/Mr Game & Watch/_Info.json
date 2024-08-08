@@ -1,0 +1,33 @@
+{
+  "skinList": [
+    "Mr Game & Watch1",
+    "Mr Game & Watch2",
+    "Mr Game & Watch3",
+    "Mr Game & Watch4",
+    "Mr Game & Watch5",
+    "Mr Game & Watch6",
+    "Mr Game & Watch7",
+    "Mr Game & Watch8"
+  ],
+  "scoreboard": {
+    "neutral": {
+      "x": -470,
+      "y": -30,
+      "scale": 1
+    }
+  },
+  "vsScreen": {
+    "neutral": {
+      "x": -470,
+      "y": -30,
+      "scale": 1
+    }
+  },
+  "gui": {
+    "neutral": {
+      "x": -5,
+      "y": 38,
+      "scale": 4.5
+    }
+  }
+}

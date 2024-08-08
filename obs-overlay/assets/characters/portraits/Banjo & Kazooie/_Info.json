@@ -1,0 +1,33 @@
+{
+  "skinList": [
+    "Banjo & Kazooie1",
+    "Banjo & Kazooie2",
+    "Banjo & Kazooie3",
+    "Banjo & Kazooie4",
+    "Banjo & Kazooie5",
+    "Banjo & Kazooie6",
+    "Banjo & Kazooie7",
+    "Banjo & Kazooie8"
+  ],
+  "scoreboard": {
+    "neutral": {
+      "x": -450,
+      "y": -50,
+      "scale": 1.1
+    }
+  },
+  "vsScreen": {
+    "neutral": {
+      "x": -450,
+      "y": -50,
+      "scale": 1.1
+    }
+  },
+  "gui": {
+    "neutral": {
+      "x": -5,
+      "y": 38,
+      "scale": 4.5
+    }
+  }
+}
