@@ -1,5 +1,5 @@
 {
-  "name": "new-stream-tool",
+  "name": "smash-board",
   "version": "1.0.0",
   "main": "src/main.js",
   "author": "Ruben Estrada <ruben4445@gmail.com>",
@@ -22,6 +22,8 @@
     "electron": "^31.3.1"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "@electron/remote": "^2.1.2",
+    "electron-squirrel-startup": "^1.0.1",
+    "mousetrap": "^1.6.5"
   }
 }
