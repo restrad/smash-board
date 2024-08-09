@@ -172,6 +172,10 @@ body {
   right: 398px;
 }
 
+.names {
+  color: white;
+}
+
 .tags {
   color: lightgray;
 }
