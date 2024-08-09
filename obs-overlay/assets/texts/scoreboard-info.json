@@ -1,16 +1,16 @@
 {
   "player": [
     {
-      "name": "",
+      "name": "Test 1",
       "tag": "",
-      "character": "Random",
-      "skin": "Random1"
+      "character": "Roy",
+      "skin": "Roy1"
     },
     {
-      "name": "",
+      "name": "Test 2",
       "tag": "",
-      "character": "Random",
-      "skin": "Random1"
+      "character": "Villager",
+      "skin": "Villager1"
     },
     {
       "name": "",
