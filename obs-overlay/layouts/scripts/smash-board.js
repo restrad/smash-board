@@ -64,7 +64,6 @@ const colorImg = document.getElementsByClassName("colors");
 const wlImg = document.getElementsByClassName("wlImg");
 const scoreImg = document.getElementsByClassName("scoreImgs");
 const scoreAnim = document.getElementsByClassName("scoreVid");
-// const tLogoImg = document.getElementsByClassName("tLogos");
 const overlayRound = document.getElementById("overlayRound");
 const textRound = document.getElementById("round");
 const borderImg = document.getElementsByClassName("border");
@@ -316,15 +315,6 @@ async function getData(scoreboardInfo) {
       //set the color
       updateColor(colorImg[i], colors[i]);
       colorPrev[i] = colors[i];
-
-      // //check if we have a logo we can place on the overlay
-      // if (gamemode == 1) {
-      //   //if this is singles, check the player tag
-      //   updateLogo(tLogoImg[i], player[i].tag, i, gamemode);
-      // } else {
-      //   //if doubles, check the team name
-      //   updateLogo(tLogoImg[i], teamName[i], i, gamemode);
-      // }
     }
 
     //update the round text	and fade it in
