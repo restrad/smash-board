@@ -50,7 +50,7 @@ const characterPath = path.resolve(
 //   "assets",
 //   "Texts"
 // );
-// const charactersPath = path.resolve(
+// const characterPath = path.resolve(
 //   process.env.PORTABLE_EXECUTABLE_DIR,
 //   "assets",
 //   "Characters"
