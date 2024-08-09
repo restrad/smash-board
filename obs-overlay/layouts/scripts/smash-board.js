@@ -29,7 +29,7 @@ let twitter1, twitch1, twitter2, twitch2;
 let socialSwitch = true; //true = twitter, false = twitch
 const socialInterval = 10000;
 
-const charPath = "../../assets/characters/";
+const charPath = "assets/characters/";
 
 //color list will be stored here on startup
 let colorList;
@@ -76,9 +76,9 @@ async function mainLoop() {
 
 mainLoop();
 
-// setInterval(() => {
-//   mainLoop();
-// }, 500);
+setInterval(() => {
+  mainLoop();
+}, 500);
 
 async function getData(scoreboardInfo) {
   const players = scoreboardInfo.player;
@@ -999,7 +999,7 @@ function getScoreboardInfo() {
   return new Promise(function (resolve) {
     const oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "../../assets/texts/scoreboard-info.json");
+    oReq.open("GET", "assets/texts/scoreboard-info.json");
     oReq.send();
 
     //will trigger when file loads
@@ -1015,7 +1015,7 @@ function getGuiSettings() {
   return new Promise(function (resolve) {
     const oReq = new XMLHttpRequest();
     oReq.addEventListener("load", reqListener);
-    oReq.open("GET", "../../assets/texts/interface-info.json");
+    oReq.open("GET", "assets/texts/interface-info.json");
     oReq.send();
 
     function reqListener() {
