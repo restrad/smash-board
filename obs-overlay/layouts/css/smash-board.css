@@ -25,7 +25,7 @@ body {
   background: transparent;
   padding: 0px;
   margin: 0px;
-  color: rgb(200, 200, 200);
+  color: white;
   font-family: "Smash";
 }
 
@@ -170,10 +170,6 @@ body {
 #p4Wrapper {
   top: 22px;
   right: 398px;
-}
-
-.names {
-  color: white;
 }
 
 .tags {
