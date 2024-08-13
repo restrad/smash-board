@@ -857,14 +857,14 @@ function updateWL(pWL, pNum, gamemode) {
   //check if winning or losing in a GF, then change image
   if (pWL == "W") {
     wlImg[pNum].src =
-      "assets/overlay/scoreboard/score/WLs/Winners P" +
+      "assets/overlay/scoreboard/WLs/Winners P" +
       (pNum + 1) +
       " " +
       gamemode +
       ".png";
   } else if (pWL == "L") {
     wlImg[pNum].src =
-      "assets/overlay/scoreboard/score/WLs/Losers P" +
+      "assets/overlay/scoreboard/WLs/Losers P" +
       (pNum + 1) +
       " " +
       gamemode +
