@@ -767,8 +767,8 @@ function enableWLtoggle() {
 }
 
 function deactivateWL() {
-  scores.forEach(({ currentWL }) => {
-    currentWL = "";
+  scores.forEach((score) => {
+    score.currentWL = "";
   });
 
   wlBoxes = document.getElementsByClassName("wlBox");
