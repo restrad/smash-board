@@ -25,22 +25,10 @@
       "skin": "Random1"
     }
   ],
-  "teamName": [
-    "",
-    ""
-  ],
-  "color": [
-    "Red",
-    "Blue"
-  ],
-  "score": [
-    0,
-    0
-  ],
-  "wl": [
-    "Nada",
-    "Nada"
-  ],
+  "teamName": ["", ""],
+  "color": ["Red", "Blue"],
+  "score": [0, 0],
+  "wl": ["", ""],
   "bestOf": "Bo5",
   "gamemode": 1,
   "round": "",

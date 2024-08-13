@@ -869,7 +869,7 @@ function updateWL(pWL, pNum, gamemode) {
       " " +
       gamemode +
       ".png";
-  } else if (pWL == "Nada") {
+  } else {
     wlImg[pNum].src = "assets/nothing.png";
   }
 }
