@@ -24,14 +24,6 @@ These are instructions for regular OBS, but I imagine you can do the same with o
 - Save presets by clicking on the `Settings` button on the bottom right corner and selecting the player number. ![image](https://github.com/user-attachments/assets/908a1009-109d-494d-9880-9b5850127f02)
 - Delete presets by deleting the corresponding JSON file under `assets/texts/player-info`.
 
-## Running App
-
-1. Open `app` directory: `cd app`
-2. Install node packages: `yarn`
-3. Generate .exe or .app file: `yarn make`
-4. Place generated .exe or .app file inside the `obs-overlay` directory
-5. Open generated file
-
 ---
 
 ## Credits
