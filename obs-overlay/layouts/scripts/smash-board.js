@@ -31,6 +31,9 @@ const socialInterval = 10000;
 
 const charPath = "assets/characters/";
 
+const bo3Mode = "Bo3";
+const bo5Mode = "Bo5";
+
 //color list will be stored here on startup
 let colorList;
 
@@ -715,12 +718,21 @@ function updateScore(pScore, bestOf, pColor, pNum, gamemode, playAnim) {
   //set timeout to the actual image change so it fits with the animation (if it played)
   setTimeout(() => {
     //change the image depending on the bestOf status and, of course, the current score
-    scoreImg[pNum].src =
-      "assets/overlay/scoreboard/score/Win Tick " +
-      bestOf +
-      " " +
-      pScore +
-      ".png";
+    if (
+      (bestOf == bo3Mode && pScore == 2) ||
+      (bestOf == bo5Mode && pScore == 3) ||
+      (bestOf == bo3Mode && pScore == 3)
+    ) {
+      scoreImg[pNum].style.display = "none";
+    } else {
+      scoreImg[pNum].style.display = "block";
+      scoreImg[pNum].src =
+        "assets/overlay/scoreboard/score/Win Tick " +
+        bestOf +
+        " " +
+        pScore +
+        ".png";
+    }
   }, delay);
 }
 
