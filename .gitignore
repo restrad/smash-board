@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 .DS_Store
-Smash-board.app/
-Smash-board.exe
+*.app/
+*.exe

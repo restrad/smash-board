@@ -12,4 +12,4 @@
 
 ## Credits
 
-This is an updated version of the [Ultimate Stream Tool](https://github.com/LieutenantL/Ultimate-Stream-Tool) made by [Lt. L](https://twitter.com/lieutenant_l5)
+This is an updated version of the [Ultimate Stream Tool](https://github.com/LieutenantL/Ultimate-Stream-Tool) made by [Lt. L](https://twitter.com/lieutenant_l5). This was also inspired by a similar [Ultimate Stream Tool](https://github.com/pokerobybeto/Ultimate-Stream-Tool) made by [Beto](https://twitter.com/pokeroby_beto).

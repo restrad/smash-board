@@ -3,46 +3,45 @@ const path = require("node:path");
 const Mousetrap = require("mousetrap");
 const mainProcess = require("@electron/remote").require("./main");
 
-// const mainPath = path.resolve(
-//   __dirname,
-//   "..",
-//   "..",
-//   "obs-overlay",
-//   "assets",
-//   "texts"
-// );
-// console.log(mainPath);
-
-// const characterPath = path.resolve(
-//   __dirname,
-//   "..",
-//   "..",
-//   "obs-overlay",
-//   "assets",
-//   "characters"
-// );
-
-// OSX publish path
 const mainPath = path.resolve(
   __dirname,
   "..",
   "..",
-  "..",
-  "..",
-  "..",
+  "obs-overlay",
   "assets",
   "texts"
 );
+
 const characterPath = path.resolve(
   __dirname,
   "..",
   "..",
-  "..",
-  "..",
-  "..",
+  "obs-overlay",
   "assets",
   "characters"
 );
+
+// OSX publish path
+// const mainPath = path.resolve(
+//   __dirname,
+//   "..",
+//   "..",
+//   "..",
+//   "..",
+//   "..",
+//   "assets",
+//   "texts"
+// );
+// const characterPath = path.resolve(
+//   __dirname,
+//   "..",
+//   "..",
+//   "..",
+//   "..",
+//   "..",
+//   "assets",
+//   "characters"
+// );
 
 // Windows publish path
 // const mainPath = path.resolve(
